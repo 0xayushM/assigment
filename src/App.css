@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    height: 5000px;
+}
+
+#element1 {
+    top:1000px;
+    left: 27.5%;
+    position: fixed;
+    transition: top 0.5s;
+}
+#element2 {
+    top:1000px;
+    right: 10%;
+    position: fixed;
+    transition: top 0.5s;
+}
+#element3 {
+    top:1500px;
+    left: 10%;
+    position: fixed;
+    transition: top 0.5s;
+}
+
+#element4 {
+    display: flex;
+    justify-content: space-between;
+    top:2500px;
+    left: 10%;
+    position: fixed;
+    transition: top 0.5s;
+    width: 1278px;
+}
+
+.container {
+    margin: 20px 0;
+    display: grid;
+    gap: 20px;
+    grid-column: 3;
+    height: screen;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+.card1{
+    margin:0 10px;
+    top:0;
+    left:10%;
+    width:10%;
+    position: fixed;
+    background-color: rgb(75, 75, 75);
+}
+.card2 {
+    margin:0 10px;
+    background-color: rgb(75,75,75);
+    right: 10%;
+    width: 10%;
+    position: fixed;
+    top:0;
+}
+
+.card3 {
+    margin:0 10px;
+    width: 37%;
+    transition: bottom 0.5s;
+}
+
+.card4 {
+    margin:0 10px;
+    width: 34%;
+    transition: bottom 0.5s;
+}
+.card5 {
+    margin:0 10px;
+    width: 30%;
+    transition: bottom 0.5s;
+}
+.card6 {
+    margin:0 10px;
+    width:20%;
+    transition: bottom 0.5s;
+}
+.card7 {
+    margin:0 10px;
+    transition: bottom 0.5s;
+    width:17%;
+}
+.card8 {
+    margin:0 10px;
+    transition: bottom 0.5s;
+    width:15%;
+}
+.card9 {
+    margin:0 10px;
+    transition: bottom 0.5s;
+    width:15%;
+}
+.pcard1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pcard3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0 10px;
+    width:450px;
+    text-align: center;
+}
+.pcard4 {
+    font-family:'Times New Roman', Times, serif;
+    margin:0 10px;
+    width: 300px;
+}
+.pcard5 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0 10px;
+    width: 500px;
+}
+.pcard6 {
+    font-weight: bolder;
+    font-size: xx-large;
+    margin:0 10px;
+    width: 200px;
+}
